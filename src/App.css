@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
+body,html{
+  font-family: Roboto !important;
+}
 .App {
   text-align: center;
 }
@@ -26,6 +30,21 @@
 
 .App-link {
   color: #61dafb;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white !important;
+
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white !important;
 }
 
 @keyframes App-logo-spin {
